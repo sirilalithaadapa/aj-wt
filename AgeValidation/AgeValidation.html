@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Age Validation></title>
+		<script>
+			funtion keyUpHandle()
+			{
+				alert("Enter age between 18 and 25:");
+			}
+			
+			function display()
+			{
+				var  age=parseInt(document.getElementById('age').value);
+				var name=document.getElementById('name').value;
+				var fatherName=document.getElementById('father').value;
+				
+				if(age<18 || age>25)
+				{
+					alert('Entet age between 18 and 25');
+					document.getElementById('age').focus();
+				}
+				
+				document.writeln(name+"<br />");
+				document.writeln(age+"<br />");
+				document.writeln(fatherName+"<br />");
+			}
+		</script>
+	</head>
+	
+	<body>
+		<form onsubmit ="display()">
+		<table>
+			<tr>
+				<th>Name</th>
+				<td><input type = "text" id = "name" /></td>
+			</tr>
+			
+			<tr>
+				<th>Age></th>
+				<td><input type="text" id="age" onkeyup="keyUpHandle()" /></td>
+			</tr>
+			
+			<tr>
+				<th>Father name></th>
+				<td><input type="text" id="father" /></td>
+			</tr>
+			
+			<tr>
+				<td><input type="submit" value="submit" /></td>
+				<td><input type="Reset" value="clear" /></td>
+			</tr>
+		</table>
+		</form>
+	</body>
+</html>
+				
