@@ -1,0 +1,48 @@
+<!Doctype html>
+<html lang="en">
+<head>
+	<title>Employee Registration Form</title>
+	<meta charset="utf-8">
+</head>
+<marquee behavior="alternate">Employee Registration Form</marquee>
+<fieldset>
+<legend>Employee Registration Form</legend>
+<form action="#">
+<table cellspacing="5">
+<tr><th><label>First Name:</label></th><td><input type="text" name="fname"></td></tr>
+<tr><th><label>Last Name:</label></th><td><input type="text" name="lname"></td></tr>
+<tr><th>Gender:</th><td><input type="radio" name="gender" value="Male">Male&nbsp;&nbsp;<input type="radio" name="gender" value="Female">Female</td></tr>
+<tr><th>Hobbies:</th><td><input type="checkbox" name="hobbies" value="pchess">Playing Chess&nbsp;&nbsp;<input type="checkbox" name="hobbies" value="wtv">Watching TV&nbsp;&nbsp;<input type="checkbox" name="hobbies" value="ReadingBooks">ReadingBooks</td></tr>
+<tr><th>Qualification:</th><td><select name="qual">
+	<option>Ph.D
+	<option>M.Tech
+	<option>MCA
+	<option>MSC
+	<option selected>B.Tech
+	<option>Diploma
+</select></td></tr>
+<tr><th>Favourite Color:</th><td>
+<input type="text" name="color" id="color" list="colors" >
+<datalist id="colors">
+     <option value="red">
+     <option value="green">
+     <option value="blue">
+     <option value="yellow">
+     <option value="pink">
+      <option value="black">
+</datalist></td></tr>
+	<tr><td><label for="project_color">Project color</label></td><td>
+	<input type="color" name="project_color" id="project_color"></td></tr>
+	<tr><th>Email:</th><td><input type="email" name="mail"></td></tr>
+	<tr><th>Mobile:</th><td><input type="tel" name="mobile"></td></tr>
+	<tr><th>DOB:</th><td><input type="date" name="dob"></td></tr>
+	<tr><th>Address:</th><td><textarea name="address" rows="5" cols="20"></textarea></td></tr>
+	<tr><th>Upload Adhaar:</th><td><input type="file" name="adhaar"></td></tr>
+	<tr><td><input type="submit" value="Register"></td><td><input type="reset" value="Clear"></td></tr>
+	<tr><th>Time:</th><td><input type="time" name="tm"></td></tr>
+	<tr><th> Date and Time:</th><td><input type="datetime-local"></td></tr>
+</table>
+</form>
+</fieldset>
+</body>
+</html>
