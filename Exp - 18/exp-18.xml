@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="exp18.xsl"?>
+<books>
+    <book>
+        <title>WT</title>
+        <author>Chris Bales</author>
+    </book>
+    <book>
+        <title>Python Complete Reference</title>
+        <author>Martin C Brown</author>
+    </book>
+</books>
