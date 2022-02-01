@@ -1,0 +1,61 @@
+
+<?xml version = "1.0"?>                                                                  
+<?xml-stylesheet type="text/xsl" href="exp-19.xsl"?> 
+
+<students>
+<h1> Student Information </h1>
+<h3>Student 1</h3>
+
+    <VTU>
+
+       <label>USN: <usn> 1ST10IS501<br/> </usn></label><br/>
+
+       <label>NAME: <name> ramesh </name></label><br/>
+
+       <label>COLLEGE: <college> SAIT </college></label><br/>
+
+       <label>BRANCH: <branch> ISE</branch></label><br/>
+
+       <label>YEAR of JOINING:<YOJ> 2010 </YOJ></label><br/>
+
+       <label>EMAIL: <email> ramesh@gmail.com </email></label><br/>
+
+    </VTU>
+
+ <h3>Student 2</h3>
+
+    <VTU>
+
+       <label>USN : <usn> 1ST10IS502</usn></label>
+
+       <label>NAME: <name> suresh</name></label>
+
+       <label>COLLEGE: <college> SAIT </college></label>
+
+       <label>BRANCH: <branch> ISE </branch></label>
+
+       <label>YEAR of JOINING: <YOJ> 2010 </YOJ></label>
+
+       <label>EMAIL : <email> suresh@gmail.com</email></label>
+
+    </VTU>
+
+  <h3>Student 3</h3>
+
+    <VTU>
+
+       <label>USN :<usn>1ST10IS503</usn></label>
+
+       <label>NAME <name> raghu </name></label>
+
+       <label>COLLEGE: <college> SAIT</college></label>
+
+       <label>BRANCH: <branch> ISE </branch></label>
+
+       <label>YEAR of JOINING: <YOJ> 2010</YOJ></label>
+
+       <label>EMAIL: <email> raghu@yahoo.com </email></label>
+
+    </VTU>
+
+   </students>
